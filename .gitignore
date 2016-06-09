@@ -90,3 +90,4 @@ ENV/
 
 # DefectiveCivSavePyvatizer
 *.Civ5Save
+.idea
