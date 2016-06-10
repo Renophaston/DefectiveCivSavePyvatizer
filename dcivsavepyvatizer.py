@@ -59,9 +59,14 @@ if pattern2_location < 3:
     print("I give up.")
     exit()
 
+print("Found pattern...")
 # make the replacement
 data[pattern2_location - 3] = 1
 
+# write out the new file
+print("Writing new file...")
 with open(outputfile, 'wb') as f:
     # write the data out to a new file
     f.write(data)
+
+print("Private game file '{}' written.".format(outputfile))
